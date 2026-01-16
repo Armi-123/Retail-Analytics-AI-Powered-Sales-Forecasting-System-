@@ -1,0 +1,19 @@
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+statsmodels
+joblib
+mysql-connector-python
+PyJWT
+fpdf
+python-dotenv
+
+
+
+# streamlit run dashboard/app.py
+
+# Deployment (Streamlit Cloud / HuggingFace)
+
+# GitHub README with screenshots
