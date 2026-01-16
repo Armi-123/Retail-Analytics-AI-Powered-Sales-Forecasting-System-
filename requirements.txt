@@ -10,7 +10,7 @@ PyJWT
 fpdf
 python-dotenv
 bcrypt
-
+plotly
 
 
 
