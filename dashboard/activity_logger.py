@@ -7,5 +7,3 @@ def log_activity(username, action):
               (username, action))
     conn.commit()
     conn.close()
-
-
