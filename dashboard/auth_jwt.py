@@ -145,6 +145,3 @@ def authenticate(username, password):
 # ---------- DECODE ----------
 def decode_token(token):
     return jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
-
-
-
