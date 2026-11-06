@@ -195,9 +195,6 @@ def generate_pdf_report(df, filters, prepared_by, charts=None, date_range=None):
         pdf.ln()
         fill = not fill
 
-
-
-
     # -------- PREPARED BY --------
     pdf.ln(12)
     pdf.set_font("Arial", size=9)
