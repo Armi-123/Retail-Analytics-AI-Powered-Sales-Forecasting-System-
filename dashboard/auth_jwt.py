@@ -28,7 +28,6 @@ def request_password_reset(email):
 
     return token
 
-
 # ---------- RESET PASSWORD ----------
 
 def reset_password(token, new_password):
@@ -110,7 +109,6 @@ def register_user(username, email, password, role="user"):
     finally:
         conn.close()
 
-
 # ---------- LOGIN ----------
 def authenticate(username, password):
     conn = get_connection()
@@ -140,7 +138,6 @@ def authenticate(username, password):
 
     finally:
         conn.close()
-
 
 # ---------- DECODE ----------
 def decode_token(token):
