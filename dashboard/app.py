@@ -33,7 +33,6 @@ with menu[0]:
         else:
             st.error("Invalid credentials")
 
-
 # ---------------- SIGNUP ----------------
 with menu[1]:
     st.subheader("Create Account")
@@ -49,7 +48,6 @@ with menu[1]:
             st.success("Account created! Login now.")
         else:
             st.error("Username or email already exists")
-
 
 # ---------------- FORGOT PASSWORD ----------------
 with menu[2]:
@@ -78,7 +76,6 @@ with menu[2]:
         else:
             st.error("Invalid or expired token")
 
-# ---------------- REDIRECT AFTER LOGIN ----------------
 # ---------------- REDIRECT AFTER LOGIN ----------------
 if st.session_state.get("token"):
 

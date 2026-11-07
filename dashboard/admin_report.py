@@ -5,7 +5,6 @@ from datetime import datetime
 import pandas as pd
 from fpdf import FPDF
 
-
 class AdminPDF(FPDF):
 
     def header(self):
@@ -24,7 +23,6 @@ class AdminPDF(FPDF):
         self.set_y(-15)
         self.set_font("Arial", size=8)
         self.cell(0, 10, f"Page {self.page_no()}", align="C")
-
 
 def generate_admin_report(df, filters, prepared_by, charts, date_range):
     pdf = AdminPDF()
